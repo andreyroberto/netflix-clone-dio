@@ -15,33 +15,36 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
 header .container {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 header .logo {
-    margin-left: 20px;
+    margin-right: 50px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
 }
 
 header nav a{
     text-decoration: none;
-    color: #aaa;
-    margin-right: 10px;
+    color: rgb(230, 230, 230);
+    margin-right: 15px;
+    font-size: 15px;
 }
 
 header nav a:hover {
-    color: #fff;
+    color: rgb(179, 179, 179);
+    transition: .2s ease all;
 }
 
 /* filme principal */
@@ -50,7 +53,7 @@ header nav a:hover {
     font-size: 20px;
     background: linear-gradient(rgba(0,0,0, .100),rgba(0,0,0,.50)100%), url(../img/cabras-da-peste.jpg);
     
-    height: 700px;
+    height: 560px;
     background-size: cover;
 
     display: flex;
@@ -62,7 +65,6 @@ header nav a:hover {
 .filme-principal .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
-    max-width: 450px;
 }
 
 .titulo {
@@ -103,9 +105,74 @@ header nav a:hover {
 .botao:nth-child(2):hover {
     background-color: rgba(55,55,55, .50);
     color: white;
-    
 }
 
 .botao i {
     margin-right: 10px;
+}
+
+.carousel-filmes {
+    cursor: pointer;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* pagina home */
+
+header .logo-home {
+    margin-right: 50px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.assistindo {
+    margin-top: 7.5%;
+    padding-bottom: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.user {
+    padding: 12px;
+    color: rgb(150, 150, 150);
+    text-align: center;
+    font-size: 20px;
+}
+
+.perfil img{
+    margin-top: 10px;
+    border-radius: 3%;
+    width: 135px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perfil img:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 3px solid rgb(200, 200, 200);
+}
+
+.gerenciar-perfil {
+    margin: 42%;
+    margin-top: 65px;
+    padding: 10px 8px 8px 8px;
+    font-size: 16px;
+    color: rgb(150, 150, 150);
+    text-align: center;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.gerenciar-perfil:hover {
+    cursor: pointer;
+    color: rgb(229, 229, 229);
+    border: 1px solid rgb(229, 229, 229);
 }
