@@ -20,7 +20,6 @@ body {
 }
 
 header .container {
-    margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,11 +27,15 @@ header .container {
 }
 
 header .logo {
-    margin-right: 50px;
+    margin: 5px 50px 0 0;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 30px;
     cursor: pointer;
+}
+
+.logo img{
+    width: 100px;
 }
 
 header nav a{
@@ -46,6 +49,7 @@ header nav a:hover {
     color: rgb(179, 179, 179);
     transition: .2s ease all;
 }
+
 
 /* filme principal */
 
@@ -111,6 +115,17 @@ header nav a:hover {
     margin-right: 10px;
 }
 
+.originais-netflix {
+    margin-top: 15%;
+    font-size: 18px;
+}
+
+.originais-netflix:hover {
+    cursor: pointer;
+}
+
+/* carousel */
+
 .carousel-filmes {
     cursor: pointer;
 }
@@ -124,12 +139,12 @@ header nav a:hover {
 /* pagina home */
 
 header .logo-home {
-    margin-right: 50px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 30px;
+    margin: 5px 50px 0 50px;
     cursor: pointer;
-    margin-left: 50px;
+}
+
+.logo-home img{
+    width: 100px;
 }
 
 .assistindo {
