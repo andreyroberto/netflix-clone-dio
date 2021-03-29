@@ -2,8 +2,6 @@
 ##
 ## Desafio realizado no Bootcamp HTML WEB DEVELOPER oferecido pela [Digital Innovation One](https://web.digitalinnovation.one/).
 
-### Modifiquei a proposta inicial do projeto para ficar mais próximo a interface atual da Neflix.
-
 # Tecnologias utilizadas 👨‍💻
 ### Foram utilizadas as seguintes tecnologias para o desenvolvimento do projeto:
 
@@ -15,6 +13,8 @@
 
 # Telas 💻
 ### Imagens das telas criadas para o projeto:
+
+* Modifiquei a proposta inicial do projeto para ficar mais próximo a interface atual da Neflix.
 
 <br>
 
