@@ -1,6 +1,6 @@
 # **Clone Interface Netflix 📺**
 ##
-## Desafio realizado no Bootcamp HTML WEB DEVELOPER oferecido pela [Digital Innovation One](https://web.digitalinnovation.one/)
+## Desafio realizado no Bootcamp HTML WEB DEVELOPER oferecido pela [Digital Innovation One](https://web.digitalinnovation.one/), onde modifiquei a proposta inicial do projeto para ficar mais próximo a interface atual da Neflix.
 
 # Tecnologias utilizadas 👨‍💻
 ### Foram utilizadas as seguintes tecnologias para o desenvolvimento do projeto:
