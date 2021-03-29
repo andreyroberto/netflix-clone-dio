@@ -72,9 +72,13 @@ header nav a:hover {
 }
 
 .titulo {
-    margin-top: 20%;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.titulo img {
+    width: 10em;
+    height: 100%;
 }
 
 .botao {
@@ -136,6 +140,10 @@ header nav a:hover {
     display: block;
 }
 
+.item img {
+    border-radius: 1%;
+}
+
 /* pagina home */
 
 header .logo-home {
@@ -148,7 +156,7 @@ header .logo-home {
 }
 
 .assistindo {
-    margin-top: 7.5%;
+    margin-top: 6%;
     padding-bottom: 5px;
     font-size: 50px;
     text-align: center;
@@ -177,7 +185,8 @@ header .logo-home {
 }
 
 .gerenciar-perfil {
-    margin: 42%;
+    margin-left: 570px;
+    margin-right: 570px;
     margin-top: 65px;
     padding: 10px 8px 8px 8px;
     font-size: 16px;
@@ -189,5 +198,5 @@ header .logo-home {
 .gerenciar-perfil:hover {
     cursor: pointer;
     color: rgb(229, 229, 229);
-    border: 1px solid rgb(229, 229, 229);
+    border: 1px solid rgb(255, 255, 255);
 }
